@@ -1,0 +1,10 @@
+name: Test Workflow
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu_latest
+    steps:
+      - name: first step
+        run: |
+          echo "First Output"
+          echo "Second Output"
